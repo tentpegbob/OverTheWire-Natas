@@ -5,7 +5,7 @@ This write-up was created on 5 March 2015.
 
 First connect to the website
 -> http://natas2.natas.labs.overthewire.org
--> Enter the following as the username narnia2 and password ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+-> Enter the following as the username natas2 and password ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
 
 Level 2 doesn't seem quite as easy. It actually says there is nothing on this page. The first
 step was to check the source code and of course nothing was there. However I did see the
