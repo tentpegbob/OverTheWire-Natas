@@ -5,7 +5,7 @@ This write-up was created on 5 March 2015.
 
 First connect to the website
 -> http://natas0.natas.labs.overthewire.org
--> Enter the following as the username narnia0 and password narnia0
+-> Enter the following as the username natas0 and password narnia0
 
 So this one seems pretty easy, it says the password is on this page. However it
 is not visible on the page itself. So my next step is to check the source code for
