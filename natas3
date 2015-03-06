@@ -6,3 +6,28 @@ This write-up was created on 5 March 2015.
 First connect to the website
 -> http://natas3.natas.labs.overthewire.org
 -> Enter the following as the username natas3 and password sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+
+Once again we are presented with a page that says there is nothing. As before I first start
+by checking the source of the webpage and find this peculiar comment.
+
+<div id="content">
+There is nothing on this page
+<!-- No more information leaks!! Not even Google will find it this time... -->
+</div>
+
+So that makes me start thinking about search engines. In a nutshell the robots.txt file
+on a webpage tells search engines which directories not to enter. More information about
+the robots.txt file can be found @ http://www.robotstxt.org/robotstxt.html
+
+Now my first step is to check that file by visiting http://natas3.natas.labs.overthewire.org/robots.txt
+At this point I am presented with the robots.txt file which contains:
+User-agent: *
+Disallow: /s3cr3t/
+
+This seems like an interesting place to visit, so let's change our url again:
+http://natas3.natas.labs.overthewire.org/s3cr3t/
+
+Another users.txt file! When we read it we find ...
+natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+
+Bingo!
