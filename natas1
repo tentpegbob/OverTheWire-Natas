@@ -5,7 +5,7 @@ This write-up was created on 5 March 2015.
 
 First connect to the website
 -> http://natas0.natas.labs.overthewire.org
--> Enter the following as the username narnia1 and password gtVrDuiDfck831PqWsLEZy5gyDz1clto
+-> Enter the following as the username natas1 and password gtVrDuiDfck831PqWsLEZy5gyDz1clto
 
 So this one seems pretty easy also, it says the password is on this page. However it
 is not visible on the page itself and right clicking is blocked. So now we just need to
